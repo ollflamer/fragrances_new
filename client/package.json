@@ -1,0 +1,12 @@
+{
+  "name": "@fragrances/client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1 --configLoader native", "build": "vite build --configLoader native", "preview": "vite preview --configLoader native" },
+  "dependencies": {
+    "react": "^18.3.1", "react-dom": "^18.3.1", "react-router-dom": "^7.18.4",
+    "react-helmet-async": "^2.0.5", "gsap": "^3.13.0", "@gsap/react": "^2.1.2", "lucide-react": "^0.468.0"
+  },
+  "devDependencies": { "vite": "^7.1.0", "@vitejs/plugin-react": "^4.7.0", "tailwindcss": "^4.1.0", "@tailwindcss/vite": "^4.1.0" }
+}

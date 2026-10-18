@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+client/dist/
+prisma/*.db*
+images/uploads/*
+!images/uploads/.gitkeep
+output/
+.playwright-cli/
+*.log
+.cache/
